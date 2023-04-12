@@ -38,7 +38,7 @@ function sendEmail(status, order) {
     o.amount = (o.amount/100).toLocaleString('en-US', { style: 'currency', currency: 'USD' });
     return o;
   });
-  const time = new Date(order.status_transitions.paid * 1000);
+  const time = new Date(order.status_transitions.paid * 0);
   email
     .send({
       template: status,

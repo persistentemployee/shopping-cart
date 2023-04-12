@@ -40,7 +40,7 @@
       "stripe_id": "Your Stripe Procuct ID Here",
       "description": "Cool Shirt!",
       "photos": ["blackShirt.jpg", "whiteShirt.jpg"],
-      "details": ["Perfect Shirt"],
+      "details": ["T-Shirt"],
       "price":100,
       "variants": [
         {

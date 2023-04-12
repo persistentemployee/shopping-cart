@@ -67,7 +67,7 @@ class Cart extends Component {
     let totalPrice;
     if (this.state.items.length) {
       totalPrice = this.state.items
-        .map(i => i.quantity * 100)
+        .map(i => i.quantity * totalPrice)
         .reduce((a, b) => a + Number(b))
         .toLocaleString("en-US", { style: "currency", currency: "USD" });
     }
